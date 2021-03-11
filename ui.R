@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-
+install.packages("shinydashboard")
 library(shiny)
 library(shinydashboard)
 dashboardPage(
