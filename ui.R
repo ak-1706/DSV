@@ -12,10 +12,10 @@ library(shinydashboard)
 dashboardPage(
     dashboardHeader(title = "Netflix dataset"),
     dashboardSidebar(sidebarMenu(
-        menuItem("Children Movies", tabName = "Question1"),
+        menuItem("Children's Movies", tabName = "Question1"),
         menuItem("Standup Comedies", tabName = "Question2"),
         menuItem("Most Watched Shows", tabName = "Question3"),
-        menuItem("Highest rated Show", tabName = "Question4")
+        menuItem("Highest Rated Show", tabName = "Question4")
     )
     ),
     dashboardBody(
