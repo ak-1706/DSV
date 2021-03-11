@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-install.packages("ggplot2")
+#install.packages("ggplot2")
 library(shiny)
 library(ggplot2)
 # Define server logic required to draw a histogram
