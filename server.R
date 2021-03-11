@@ -24,7 +24,7 @@ shinyServer(function(input, output){
     })
     
     
-    output$q1 <- renderText({ paste("TV-Y7=95 Movies", "TV-Y=117 Movies" ,"TV-G=111 Movies", "PG-13=386 Movies", "PG=247 Movies",sep="\n") })
+    output$q1 <- renderText({ paste("1.TV-Y7=95 Movies", "2.TV-Y=117 Movies" ,"3.TV-G=111 Movies", "4.PG-13=386 Movies", "5.PG=247 Movies",sep="\n") })
     output$q2 <- renderText({ "The standup comedy genre has 321 titles." })
     output$q4 <- renderText({ "Highest rated tv show is 13 reasons why.Released in 2017." })
     output$plot1<- renderPlot(width = 500,height = 500, ggplot(cmovies, aes(x="", y=prop, fill=Var1)) +
