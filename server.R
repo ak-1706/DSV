@@ -11,6 +11,10 @@ library(shiny)
 library(ggplot2)
 # Define server logic required to draw a histogram
 shinyServer(function(input, output){
+    cmovies<-read.csv("cmovies.csv")
+    data<-read.csv("data.csv")
+    hrs1<-read.csv("hrs1.csv")
+    standup<-read.csv("standup.csv")
     standup_frequency<-table(standup$listed_in)
     cmovies<-as.data.frame(cmovies)
    
